@@ -1,5 +1,5 @@
 ## Запуск ##
-npm run server
+npm run serve
 
 ## Продакшн ##
 npm run build
