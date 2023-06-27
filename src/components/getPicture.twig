@@ -1,0 +1,6 @@
+{% macro getPicture(props) %}
+	<picture>
+		<source type='image/webp' srcset='../assets/img/{{props.name}}@1x.{{props.ext}}?as=webp 1x, ../assets/img/{{props.name}}@2x.{{props.ext}}?as=webp 2x'>
+		<img src='../assets/img/{{props.name}}@1x.{{props.ext}}' srcset="../assets/img/{{props.name}}@1x.{{props.ext}} 1x, ../assets/img/{{props.name}}@2x.{{props.ext}} 2x">
+	</picture>
+{% endmacro %}
