@@ -26,6 +26,9 @@ module.exports = (env) => {
 
 	return {
 		entry: path.join(__dirname, 'src/js/app.js'),
+		cache: {
+			type: 'filesystem',
+		},
 		output: {
 			path: path.join(__dirname, 'dist'),
 			filename: 'index.[contenthash].js',
