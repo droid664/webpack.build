@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+}
+p {
+	margin-top: 0;
+}
+button,
+input,
+textarea {
+	padding: 0;
+	border-radius: 0;
+}
+svg {
+	display: block;
+}
+
+// Отключение подсветки клика на мобильном
+// * {
+// 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+// 	-webkit-tap-highlight-color: transparent;
+// }
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+	display: none;
+}
