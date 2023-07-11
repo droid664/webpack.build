@@ -87,6 +87,7 @@ module.exports = (env) => {
 			],
 		},
 		optimization: {
+			minimize: true,
 			minimizer: [
 				new ImageMinimizerPlugin({
 					minimizer: {
